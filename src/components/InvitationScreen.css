@@ -1,0 +1,261 @@
+.invitation-screen {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #050a15 0%, #0d1620 50%, #050a15 100%);
+  padding: 60px 20px;
+  font-family: 'Georgia', 'Garamond', serif;
+}
+
+.invitation-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===== HEADER ===== */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.header-letters {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: #d4af37;
+  text-transform: uppercase;
+  font-family: 'Georgia', serif;
+}
+
+/* ===== INTRO SECTION ===== */
+.intro-section {
+  text-align: center;
+  margin-bottom: 60px;
+  animation: slideInUp 0.8s ease-out;
+  border-top: none;
+  border-bottom: none;
+  padding: 50px 0;
+}
+
+.bismillah {
+  font-size: 52px;
+  color: #d4af37;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  position: relative;
+  font-family: 'Traditional Arabic', 'Simplified Arabic', serif;
+  line-height: 1.2;
+}
+
+.intro-text {
+  font-size: 14px;
+  color: #a8a8a8;
+  margin-bottom: 35px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.names {
+  margin-bottom: 30px;
+}
+
+.names h1 {
+  font-size: 48px;
+  color: #e8d4c0;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: 'Georgia', serif;
+}
+
+.names .and {
+  font-size: 16px;
+  color: #d4af37;
+  margin: 20px 0;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.venue {
+  margin-bottom: 15px;
+}
+
+.venue p {
+  font-size: 18px;
+  color: #e8d4c0;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-family: 'Georgia', serif;
+}
+
+.dates {
+  margin-bottom: 0;
+}
+
+.dates p {
+  font-size: 13px;
+  color: #a8a8a8;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===== EVENTS SECTION ===== */
+.events-section {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #e8d4c0;
+  margin-bottom: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ===== LOCATION SECTION ===== */
+.location-section {
+  text-align: center;
+  margin-bottom: 60px;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.location-header h2 {
+  font-size: 28px;
+  color: #e8d4c0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: 'Georgia', serif;
+}
+
+.location-desc {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.map-button {
+  display: inline-block;
+  background: transparent;
+  color: #a8a8a8;
+  padding: 14px 50px;
+  border-radius: 0;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  border: 2px solid #a8a8a8;
+  cursor: pointer;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: 'Georgia', serif;
+}
+
+.map-button:hover {
+  transform: none;
+  box-shadow: none;
+  color: #e8d4c0;
+  border-color: #e8d4c0;
+}
+
+/* ===== CLOSING SECTION ===== */
+.closing-section {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: none;
+}
+
+.closing-text {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.closing-sign {
+  font-size: 16px;
+  color: #e8d4c0;
+  line-height: 1.8;
+  font-family: 'Georgia', serif;
+}
+
+.closing-sign strong {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-letters {
+    font-size: 32px;
+  }
+
+  .names h1 {
+    font-size: 32px;
+  }
+
+  .venue p {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .invitation-screen {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-letters {
+    font-size: 24px;
+  }
+
+  .names h1 {
+    font-size: 24px;
+  }
+
+  .venue p {
+    font-size: 18px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .location-section {
+    padding: 25px 20px;
+  }
+
+  .closing-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,146 @@
+.events-section {
+  margin-bottom: 80px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 18px;
+  color: #d4af37;
+  margin-bottom: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.event-card {
+  background: transparent;
+  padding: 30px 0;
+  border-radius: 0;
+  border-left: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideInUp 0.6s ease-out;
+  position: relative;
+  padding-left: 40px;
+}
+
+.event-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 12px;
+  height: 12px;
+  background: #d4af37;
+  border-radius: 50%;
+}
+
+.event-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.event-number {
+  font-size: 12px;
+  color: #d4af37;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.event-title {
+  font-size: 28px;
+  color: #e8d4c0;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-family: 'Georgia', serif;
+}
+
+.event-date {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin-bottom: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.event-description {
+  font-size: 13px;
+  color: #a8a8a8;
+  line-height: 1.8;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sub-event {
+  margin-top: 15px;
+  padding-top: 0;
+  border-top: none;
+}
+
+.sub-event-title {
+  font-size: 16px;
+  color: #e8d4c0;
+  font-weight: 300;
+  margin-bottom: 5px;
+  font-family: 'Georgia', serif;
+}
+
+.sub-event-time {
+  font-size: 12px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.sub-event-desc {
+  font-size: 13px;
+  color: #a8a8a8;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .event-title {
+    font-size: 22px;
+  }
+
+  .event-date,
+  .event-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-card {
+    padding: 20px 0;
+    padding-left: 30px;
+  }
+
+  .event-title {
+    font-size: 18px;
+  }
+
+  .event-date,
+  .event-description {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,107 @@
+.rsvp-section {
+  text-align: center;
+  margin-bottom: 60px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 0;
+}
+
+.rsvp-section h2 {
+  font-size: 28px;
+  color: #e8d4c0;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-family: 'Georgia', serif;
+}
+
+.rsvp-section > p {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin-bottom: 35px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.rsvp-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 16px 30px;
+  border-radius: 0;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Georgia', serif;
+}
+
+.btn-yes {
+  background: #d4af37;
+  color: #0f1729;
+  box-shadow: none;
+  border: 2px solid #d4af37;
+}
+
+.btn-yes:hover {
+  transform: none;
+  box-shadow: none;
+  background: #e8d4c0;
+  border-color: #e8d4c0;
+}
+
+.btn-yes:active {
+  transform: none;
+}
+
+.btn-no {
+  background: transparent;
+  color: #a8a8a8;
+  border: 2px solid #a8a8a8;
+}
+
+.btn-no:hover {
+  background: transparent;
+  color: #e8d4c0;
+  border-color: #e8d4c0;
+  transform: none;
+}
+
+.btn-no:active {
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  .rsvp-section h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    padding: 14px 25px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rsvp-section {
+    padding: 15px;
+  }
+
+  .rsvp-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 14px 25px;
+    font-size: 13px;
+  }
+}
