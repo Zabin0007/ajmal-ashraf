@@ -30,7 +30,7 @@ function PreloadScreen({ onSealTap }) {
       transition: 'opacity 2.5s ease-in'
     }}>
       <div className='text-center'>
-      <h1 style={{color:'#c9a24d', fontSize:'40px'}}> A & K</h1>
+      <h1 style={{color:'#c9a24d', fontSize:'40px'}}> K & A</h1>
       </div>
       {/* Main container with images and seal */}
       <div style={{

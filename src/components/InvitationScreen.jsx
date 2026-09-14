@@ -136,7 +136,7 @@ function InvitationScreen() {
             gap: '40px'
           }}>
             <EventCard
-              number="Night one"
+              number="Day one"
               title="Sangeeth & DJ Night"
               date="Friday, 25 September — 7:00 pm onwards"
               description="Wear something you can dance in. The music runs late."
@@ -144,7 +144,7 @@ function InvitationScreen() {
             />
 
             <EventCard
-              number="Night two"
+              number="Day two"
               title="Nikah"
               date="Saturday, 26 September — after Maghrib"
               description="Nikah ceremony"
@@ -157,9 +157,9 @@ function InvitationScreen() {
             />
 
             <EventCard
-              number="Night three"
+              number="Day three"
               title="Reception"
-              date="Sunday, 27 September — 7:00 pm onwards"
+              date="Sunday, 27 September — 1:00 pm onwards"
               description="Come hungry. Stay for the photos."
               isLast={true}
             />
@@ -197,7 +197,7 @@ function InvitationScreen() {
           </p>
           
           <a 
-            href="https://maps.app.goo.gl/yNb6YWtDSaVwPUAF8" 
+            href="https://maps.app.goo.gl/4B19sf2WwrHJ237w6" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{
