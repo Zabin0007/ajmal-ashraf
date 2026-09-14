@@ -105,10 +105,10 @@ function PreloadScreen({ onSealTap }) {
           </div>
         )} */}
 
-        {/* Khadeeja Image - Right Side */}
+        {/* Kadeeja Image - Right Side */}
         <img 
           src="/khadija.webp" 
-          alt="Khadeeja" 
+          alt="Kadeeja" 
           style={{
             position: 'absolute',
             right: '100px',
@@ -120,7 +120,7 @@ function PreloadScreen({ onSealTap }) {
             animation: isOpen ? 'openRight 2.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards' : 'float 3s ease-in-out infinite 0.5s',
             zIndex: 5
           }}
-          onError={(e) => console.log('Khadeeja image failed to load')}
+          onError={(e) => console.log('Kadeeja image failed to load')}
         />
       </div>
 

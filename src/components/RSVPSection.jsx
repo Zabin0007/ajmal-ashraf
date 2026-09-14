@@ -7,7 +7,7 @@ function RSVPSection() {
   const handleRSVP = (response) => {
     if (response) {
       // Send "Count me in" to WhatsApp
-      const message = "Yes, I'm coming to Ajmal & Khadeeja's wedding!";
+      const message = "Yes, I'm coming to Ajmal & Kadeeja's wedding!";
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
       window.open(whatsappURL, '_blank');
     } else {
