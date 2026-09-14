@@ -197,7 +197,7 @@ function InvitationScreen() {
           </p>
           
           <a 
-            href="https://maps.google.com/?q=Karoth+Villa" 
+            href="https://maps.app.goo.gl/yNb6YWtDSaVwPUAF8" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{
