@@ -84,7 +84,7 @@ function InvitationScreen() {
               letterSpacing: '2px',
               fontFamily: 'Georgia, serif'
             }}>
-              Kadeeja
+              Kadeeja Ashraf
             </h1>
           </div>
 
