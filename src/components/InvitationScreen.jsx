@@ -137,7 +137,7 @@ function InvitationScreen() {
           }}>
             <EventCard
               number="Day one"
-              title="Sangeeth & DJ Night"
+              title="Punjabi & DJ Night"
               date="Friday, 25 September — 7:00 pm onwards"
               description="Wear something you can dance in. The music runs late."
               isLast={false}
